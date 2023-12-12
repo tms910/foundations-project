@@ -71,7 +71,8 @@ img.big-lucy{
 
 .moments{
     display:flex;
-    flex:0;
+    flex-wrap: wrap;
+    flex:1;
     justify-content: space-between;
     padding:5rem;
     color:white;
@@ -79,7 +80,6 @@ img.big-lucy{
 
 .image-tabs{
     display: flex;
-    flex-wrap: wrap;
     background-color: #DD2A7B;
     border:1px solid black;
     padding:1rem;
@@ -115,7 +115,7 @@ img.big-lucy{
 .quote{
     display:flex;
     background-color: black;
-    border:1px solid none;
+    border-radius: 1rem;
     padding:1rem;
     margin:1rem;
 }
